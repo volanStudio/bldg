@@ -1,0 +1,35 @@
+header, main, footer {
+  padding: 0 var(--spacing-m);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  li {
+    a {
+      padding: var(--spacing-m);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    &:first-of-type {
+      flex-grow: 1;
+      a {
+        padding-left: 0;
+      }
+    }
+    &:last-of-type {
+      a {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+@media (--breakpoint-large) {
+  header, main, footer {
+    margin: 0 auto;
+    max-width: 64em;
+  }
+}
