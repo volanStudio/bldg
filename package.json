@@ -6,7 +6,7 @@
   "author": "Lucas Smith <lucas@volan.co>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/volan/bldg"
+    "url": "https://github.com/volanStudio/bldg"
   },
   "license": "MIT",
   "devDependencies": {
